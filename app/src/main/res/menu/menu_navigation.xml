@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:checkableBehavior="single"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_group1" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_home_black_24dp"
+            android:id="@+id/unusual_jams"
+            android:title="@string/unusual_jams"
+            android:checkable="true" />
+        <item
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:id="@+id/regular_jam"
+            android:title="@string/regular_jam"
+            android:checkable="true" />
+    </group>
+
+    <group android:id="@+id/nav_group2" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_star_black_24dp"
+            android:id="@+id/traffic_incidents"
+            android:title="@string/traffic_incidents"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_history_black_24dp"
+            android:id="@+id/event_publishing"
+            android:title="@string/event_publishing"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_people_black_24dp"
+            android:id="@+id/study_analysis"
+            android:title="@string/study_analysis"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:id="@+id/traffic_reports"
+            android:title="@string/traffic_reports"
+            android:checkable="true" />
+
+    </group>
+
+    <group android:id="@+id/nav_group3" android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_color_lens_black_24dp"
+            android:id="@+id/transport_layer"
+            android:orderInCategory="1"
+            android:title="@string/transport_layer"
+            android:checkable="true" />
+
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:id="@+id/traffic_report"
+            android:orderInCategory="3"
+            android:title="@string/traffic_report"
+            android:checkable="true" />
+    </group>
+
+</menu>
